@@ -43,6 +43,9 @@ def reverse_array(array)
   count = array.index(lastelement)
   new_array = []
   
+  until count == 0 do
+    new_array << array[count]
+  end
   
   
   
