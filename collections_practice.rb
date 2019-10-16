@@ -40,10 +40,10 @@ end
 def reverse_array(array)
   
   lastelement = array.last
-  count = array.index(lastelement) + 1
+  count = array.index(lastelement) 
   new_array = []
   
-  until count == 0 do
+  while count > -1 do
     new_array << array[count]
     count -= 1
   end
