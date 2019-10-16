@@ -45,10 +45,9 @@ def reverse_array(array)
   
   until count == 0 do
     new_array << array[count]
+    count -= 1
   end
-  
-  
-  
+  new_array
 end
 
 
