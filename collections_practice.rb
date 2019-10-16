@@ -34,6 +34,7 @@ def swap_elements(array)
   
   array[1] = number2
   array[2] = number
+  array
 end
 
 
