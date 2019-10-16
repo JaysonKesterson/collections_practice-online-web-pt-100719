@@ -57,6 +57,7 @@ def kesha_maker(array)
     string.split
     string[2] = $
     string.join
+    new_array << string
   end
 end
 
