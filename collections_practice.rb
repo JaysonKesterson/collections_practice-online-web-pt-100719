@@ -69,7 +69,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = array[0]
+  sum = 0
   
 end
 
