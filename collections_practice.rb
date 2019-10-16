@@ -65,6 +65,7 @@ end
 def find_a(array)
   array.find_all do |string|
     string.start_with?("")
+  end
 end
 
 
