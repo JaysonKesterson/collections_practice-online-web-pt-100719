@@ -56,7 +56,7 @@ def kesha_maker(array)
   array.each do |string|
     temp = string.chars
     temp[2] = "$"
-    temp.join
+    temp = temp.join
     new_array << temp
   end
   new_array
