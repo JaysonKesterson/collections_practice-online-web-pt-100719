@@ -33,7 +33,7 @@ def swap_elements(array)
   number2 = array[2]
   
   array[1] = number2
-  array[2] = number1
+  array[2] = number
 end
 
 
