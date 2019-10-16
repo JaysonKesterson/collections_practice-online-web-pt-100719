@@ -38,7 +38,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  count = array[-1].index
+  count = array.index
 end
 
 
