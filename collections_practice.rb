@@ -59,6 +59,7 @@ def kesha_maker(array)
     temp.join
     new_array << temp
   end
+  new_array
 end
 
 
