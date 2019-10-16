@@ -54,10 +54,10 @@ def kesha_maker(array)
   new_array = []
   
   array.each do |string|
-    string.split
-    string[2] = $
-    string.join
-    new_array << string
+    temp = string.split
+    temp[2] = $
+    temp.join
+    new_array << temp
   end
 end
 
